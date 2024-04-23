@@ -10,6 +10,11 @@ export default [
   pluginReactConfig,
   {
     languageOptions: { globals: globals.browser },
+    settings: {
+      react: {
+        version: "detect"
+      }
+    },
   },
   eslintConfigPrettier,
 ];
